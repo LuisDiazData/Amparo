@@ -1,0 +1,36 @@
+name: "🐞 Bug report"
+description: Reporta un error reproducible
+labels: [bug]
+body:
+- type: textarea
+id: description
+attributes:
+label: Descripción
+description: ¿Qué pasa y qué esperabas que pasara?
+placeholder: "Al abrir la pantalla X la app crashea…"
+validations:
+required: true
+- type: textarea
+id: steps
+attributes:
+label: Pasos para reproducir
+value: |
+1. Ir a …
+2. Tocar …
+3. Ver error …
+validations:
+required: true
+- type: input
+id: version
+attributes:
+label: Versión de la app / commit
+- type: dropdown
+id: platform
+attributes:
+label: Plataforma
+options: [Android 13, Android 14, Otro]
+- type: textarea
+id: logs
+attributes:
+label: Logs / stacktrace
+render: shell

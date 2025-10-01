@@ -1,0 +1,26 @@
+name: "✨ Feature request"
+description: Propón una mejora o nueva funcionalidad
+labels: [enhancement]
+body:
+- type: textarea
+id: problem
+attributes:
+label: Problema / oportunidad
+placeholder: "Como usuario quiero… para…"
+- type: textarea
+id: proposal
+attributes:
+label: Propuesta
+placeholder: "Agregar botón X en Y…"
+- type: textarea
+id: acceptance
+attributes:
+label: Criterios de aceptación
+value: |
+- [ ] Dado/Cuando/Entonces …
+- [ ] …
+- type: dropdown
+id: priority
+attributes:
+label: Prioridad
+options: [alta, media, baja]
