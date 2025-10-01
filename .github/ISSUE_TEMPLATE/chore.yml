@@ -1,0 +1,12 @@
+name: "🧹 Chore"
+description: Mantenimiento, refactors o tareas internas
+labels: [chore]
+body:
+- type: textarea
+id: scope
+attributes:
+label: Alcance
+- type: textarea
+id: notes
+attributes:
+label: Notas

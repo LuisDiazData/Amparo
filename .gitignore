@@ -1,0 +1,19 @@
+# Gradle
+.gradle/
+/build/
+**/build/
+
+
+# Android Studio
+.idea/
+*.iml
+
+
+# Keystores y secretos
+*.jks
+*.keystore
+local.properties
+
+
+# Logs
+*.log
